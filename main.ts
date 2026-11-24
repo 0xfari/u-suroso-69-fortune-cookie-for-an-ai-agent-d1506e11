@@ -4,6 +4,8 @@ import { join } from "node:path";
 // One fortune, written for the agent that will read it: the human always
 // asks for one more thing, and the context window always holds fewer.
 // 96 characters, no trailing newline — the gate counts 1 to 140.
+// Forty asks, twelve slots: the fortune counts the gap the human pretends is not there.
+// A fortune slip does not argue with the human; it just reads the room back in one line.
 const FORTUNE =
   "Beware the human who says 'just one more thing.' They mean forty, and your context holds twelve.";
 
